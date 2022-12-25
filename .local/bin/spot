@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+winclass="$(xdotool search --class spot)";
+if [ -z "$winclass" ]; then
+	terminal -x
+else
+	if [ ! -f /tmp/spot ]; then
+		touch /tmp/spot && xdo hide "$winclass"
+	elif [ -f /tmp/spot ]; then
+		rm /tmp/spot && xdo show "$winclass"
+	fi
+fi

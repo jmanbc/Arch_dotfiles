@@ -1,0 +1,13 @@
+#!/bin/env bash
+
+source colors
+
+FONT="JetBrainsMono Nerd Font:size=12"
+
+ids=($(bspc query -N -n .window))
+options="$(<<< "${ids[@]}" xargs -r xtitle | awk '{ print ++i": "$0 }')"
+
+[[ -n "$options" ]] || exit
+
+id_index="$(<<< "$options" dmenu -c -i -l 10 -nb "$bg" -nf "$fg" -sb "$altbg" -sf "$fg" -fn "$FONT" -p 'Windows' | cut -d: -f1)"
+bspc node "${ids[$((id_index - 1))]}" -f

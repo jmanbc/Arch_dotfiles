@@ -1,0 +1,37 @@
+#!/bin/env bash
+
+if [[ "$DESKTOP_SESSION" == "qtile" ]]; then
+  CONFIG="$HOME/.config/qtile/alacritty/alacritty.yml"
+elif [[ "$DESKTOP_SESSION" == "dwm" ]]; then
+  CONFIG="$HOME/.dwm/alacritty/alacritty.yml"
+elif [[ "$DESKTOP_SESSION" == "bspwm" ]]; then
+  CONFIG="$HOME/.config/bspwm/alacritty/alacritty.yml"
+elif [[ "$DESKTOP_SESSION" == "xmonad" ]]; then
+  CONFIG="$HOME/.xmonad/alacritty/alacritty.yml"
+elif [[ "$DESKTOP_SESSION" == "spectrwm" ]]; then
+  CONFIG="$HOME/.config/spectrwm/alacritty/alacritty.yml"
+elif [[ "$DESKTOP_SESSION" == "leftwm" ]]; then
+  CONFIG="$HOME/.config/leftwm/alacritty/alacritty.yml"
+elif [[ "$DESKTOP_SESSION" == "i3" ]]; then
+  CONFIG="$HOME/.config/i3/alacritty/alacritty.yml"
+fi
+
+case "$1" in
+  '-f')
+          alacritty --class 'Alafloat,Alafloat' --config-file "$CONFIG"
+          ;;
+  '-m')
+          alacritty --class 'Alamax,Alamax' --config-file "$CONFIG" -o window.startup_mode=fullscreen window.padding.x=30 window.padding.y=30
+          ;;
+  '-e')
+          alacritty --config-file "$CONFIG" -e "$2"
+          ;;
+  '-s')
+          alacritty --class 'scpad,scpad' --config-file "$CONFIG"
+          ;;
+  '-x')
+          alacritty --class 'spot,spot' --config-file "$CONFIG" -e ncspot
+          ;;
+     *)
+          alacritty --config-file "$CONFIG"
+esac

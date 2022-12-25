@@ -1,0 +1,96 @@
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[global/wm]
+margin-bottom = 0
+margin-top = 0
+
+include-file = ~/.config/i3/polybar/colors
+include-file = ~/.config/i3/polybar/modules
+include-file = ~/.config/i3/polybar/decor
+include-file = ~/.config/i3/polybar/system
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[bar/main]
+monitor =
+monitor-fallback =
+monitor-strict = false
+
+override-redirect = false
+
+bottom = false
+fixed-center = true
+
+width = 100%
+height = 25
+
+offset-x = 0%
+offset-y = 0%
+
+background = ${color.background}
+foreground = ${color.foreground}
+
+radius-top =
+radius-bottom =
+
+line-size = 2
+line-color = ${color.blue}
+
+border-size = 6
+border-color = ${color.background}
+
+padding = 0
+
+module-margin-left = 0
+module-margin-right = 0
+
+wm-restack = i3
+
+font-0 = "Source Code Pro Medium:size=10;3"
+font-1 = "Iosevka Nerd Font:size=12;3"
+font-2 = "Iosevka Nerd Font:size=16;4"
+font-3 = "Iosevka Nerd Font:size=18;4"
+font-4 = "Source Code Pro Bold:size=12;3"
+font-5 = "DejaVu Sans Mono:size=12;3"
+font-6 = "Noto Sans Mono:size12;3"
+
+# Default
+modules-left = spacing BLD launcher BRD dot GLD network GRD dot mrpis-control spacing spacing mrpis-prev spacing spacing mrpis-play-pause spacing spacing mrpis-next spacing spacing mrpis-process spacing mrpis-status
+modules-center = LD i3 RD
+modules-right = xkeyboard spacing tray spacing dunst spacing package-updates package-updates-trigger dot MLD volume cava MRD dot GLD cpu YPL memory CPL filesystem CRD dot BLD time BRD spacing
+
+spacing = 0
+dim-value = 1.0
+
+#tray-position = right
+#tray-detached = false
+tray-maxsize = 20
+#tray-background = ${color.background}
+#tray-offset-x = 0
+#tray-offset-y = 0
+#tray-padding = 1
+#tray-scale = 1.0
+#tray-position=adaptive
+
+enable-ipc = true
+
+cursor-click = 
+cursor-scroll = 
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[settings]
+throttle-output = 5
+throttle-output-for = 10
+
+screenchange-reload = false
+
+compositing-background = source
+compositing-foreground = over
+compositing-overline = over
+compositing-underline = over
+compositing-border = over
+
+pseudo-transparency = false
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_

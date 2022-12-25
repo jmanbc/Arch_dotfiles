@@ -1,0 +1,469 @@
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/backlight]
+type = internal/xbacklight
+
+; Use the following command to list available cards:
+; $ ls -1 /sys/class/backlight/
+card = intel_backlight
+
+format = <ramp> <label>
+format-background = ${color.yellow}
+
+label = %percentage%%
+label-foreground = ${color.background}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-5 = 
+ramp-6 = 
+ramp-7 = 
+ramp-8 = 
+ramp-9 = 
+ramp-font = 2
+ramp-foreground = ${color.background}
+
+[module/brightness]
+type = internal/backlight
+
+; Use the following command to list available cards:
+; $ ls -1 /sys/class/brightness/
+card = ${system.graphics_card}
+
+enable-scroll = true
+
+format = <ramp> <label>
+format-background = ${color.red}
+format-padding = 1
+
+label = %percentage%%
+label-foreground = ${color.background}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-5 = 
+ramp-6 = 
+ramp-7 = 
+ramp-8 = 
+ramp-9 = 
+ramp-font = 2
+ramp-foreground = ${color.background}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/volume]
+type = internal/pulseaudio
+
+use-ui-max = false
+
+interval = 5
+
+format-volume = <ramp-volume><label-volume>
+
+format-muted = <label-muted>
+format-muted-prefix = "  "
+format-muted-prefix-font = 2
+format-muted-prefix-foreground = ${color.background}
+format-muted-prefix-background = ${color.magenta}
+
+label-volume = "%percentage%% "
+label-muted = "Mute"
+
+label-volume-background = ${color.magenta}
+label-muted-background = ${color.magenta}
+
+label-volume-foreground = ${color.background}
+label-muted-foreground = ${color.background}
+
+ramp-volume-0 = "  "
+ramp-volume-1 = "  "
+ramp-volume-2 = "  "
+ramp-volume-3 = "  "
+ramp-volume-4 = "  "
+ramp-volume-5 = "  "
+ramp-volume-6 = "  "
+ramp-volume-7 = "  "
+ramp-volume-8 = "  "
+ramp-volume-9 = "  "
+ramp-volume-font = 2
+ramp-volume-foreground = ${color.background}
+ramp-volume-background = ${color.magenta}
+
+ramp-headphones-0 = 
+ramp-headphones-1 = 
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/battery]
+type = internal/battery
+
+full-at = 99
+
+battery = ${system.battery}
+adapter = ${system.adapter}
+
+poll-interval = 2
+time-format = %H:%M
+
+format-charging = <animation-charging><label-charging>
+format-charging-prefix = 
+
+format-discharging = <ramp-capacity><label-discharging>
+
+format-full = <label-full>
+format-full-prefix = " "
+format-full-prefix-font = 2
+format-full-prefix-foreground = ${color.background}
+format-full-prefix-background = ${color.blue}
+
+label-charging = "%percentage%% "
+label-discharging = "%percentage%% "
+label-full = "%percentage%% "
+
+label-charging-background = ${color.blue}
+label-discharging-background = ${color.blue}
+label-full-background = ${color.blue}
+
+label-charging-foreground = ${color.background}
+label-discharging-foreground = ${color.background}
+label-full-foreground = ${color.background}
+
+ramp-capacity-0 = " "
+ramp-capacity-1 = " "
+ramp-capacity-2 = " "
+ramp-capacity-3 = " "
+ramp-capacity-4 = " "
+ramp-capacity-font = 2
+ramp-capacity-foreground = ${color.background}
+ramp-capacity-background = ${color.blue}
+
+animation-charging-0 = " "
+animation-charging-1 = " "
+animation-charging-2 = " "
+animation-charging-3 = " "
+animation-charging-4 = " "
+animation-charging-font = 2
+animation-charging-foreground = ${color.background}
+animation-charging-background = ${color.blue}
+animation-charging-framerate = 750
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/i3]
+type = internal/i3
+
+pin-workspaces = true
+strip-wsnumbers = true
+index-sort = true
+
+enable-click = true
+enable-scroll = true
+wrapping-scroll = false
+reverse-scroll = false
+
+fuzzy-match = true
+
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-7 = 8;ﭧ
+ws-icon-8 = 9;אַ
+ws-icon-9 = 10;ﲵ
+
+format = <label-state><label-mode>
+format-background = ${color.altblack}
+format-font = 3
+
+label-mode = %mode%
+label-mode-padding = 1
+label-mode-background = ${color.altblack}
+label-mode-foreground = ${color.yellow}
+
+label-focused = %icon%
+label-focused-foreground = ${color.blue}
+label-focused-background = ${color.altblack}
+
+label-unfocused = %icon%
+label-unfocused-foreground = ${color.foreground}
+label-unfocused-background = ${color.altblack}
+
+label-visible = %icon%
+label-visible-foreground = ${color.green}
+label-visible-background = ${color.altblack}
+
+label-urgent = %icon%
+label-urgent-foreground = ${color.red}
+label-urgent-background = ${color.altblack}
+
+label-focused-padding = 1
+label-unfocused-padding = 1
+label-visible-padding = 1
+label-urgent-padding = 1
+
+;label-separator = |
+;label-separator-padding = 0
+;label-separator-foreground = ${color.foreground}
+;label-separator-background = ${color.altblack}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/cava]
+type = custom/script
+tail = true
+exec = $HOME/.config/bspwm/polybar/cava.sh
+format = <label>
+format-font = 5
+label = %output%
+label-foreground = ${color.background}
+label-background = ${color.magenta}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/title]
+type = internal/xwindow
+
+label = %title%
+label-maxlen = 110
+
+format-background =${color.cyan}
+format-foreground =${color.background}
+format-padding = 1
+format-font = 5
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/tray]
+type = internal/tray
+format = <tray>
+format-padding = 0
+tray-maxsize = 20
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/dunst]
+type = custom/ipc
+initial = 1
+format-foreground = ${color.yellow}
+
+hook-0 = echo "%{A1:dunstctl set-paused true && polybar-msg hook dunst 2:}%{A}" &
+hook-1 = echo "%{A1:dunstctl set-paused false && polybar-msg hook dunst 1:}%{A}" &
+click-right=dunstctl history-pop
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+format-padding = 0
+format-prefix-foreground = ${color.background}
+format-foreground = ${color.background}
+format-background = ${color.green}
+label = "%{A1:terminal -e gtop &:}%percentage%% %{A}"
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/time]
+type = internal/date
+interval = 1
+format-margin = 0
+time = %H:%M  %m/%d/%y
+time-alt = "%A  %m/%d/%y"
+
+format-prefix = 
+format-prefix-foreground = ${color.background}
+format-prefix-background = ${color.blue}
+
+label = %time%
+label-foreground = ${color.background}
+label-background = ${color.blue}
+label-padding = 1
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/filesystem]
+type = internal/fs
+
+mount-0 = /
+interval = 30
+fixed-values = true
+
+format-mounted = <label-mounted>
+format-mounted-prefix = " "
+format-mounted-prefix-foreground = ${color.background}
+format-mounted-prefix-background = ${color.cyan}
+
+format-unmounted = <label-unmounted>
+format-unmounted-prefix = " "
+format-unmounted-prefix-foreground = ${color.background}
+format-unmounted-prefix-background = ${color.cyan}
+
+label-mounted = "%{A1:terminal -e ncdu &:} %free%%{A}"
+label-unmounted = " %mountpoint%: NA"
+label-mounted-foreground = ${color.background}
+
+label-mounted-background = ${color.cyan}
+label-unmounted-background = ${color.cyan}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/memory]
+type = internal/memory
+
+interval = 1
+
+format = <label>
+format-prefix = " "
+format-prefix-foreground = ${color.background}
+format-foreground = ${color.background}
+format-background = ${color.yellow}
+
+label = "%{A1:terminal -e htop &:} %mb_used% %{A}"
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/launcher]
+type=custom/text
+content = 
+content-font = 4
+content-foreground= ${color.background}
+content-background = ${color.blue}
+content-padding = 1
+click-left="jgmenu_run >/dev/null 2>&1 &"
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/wired-network]
+type = internal/network
+interface = ${system.network_interface}
+
+[module/wireless-network]
+type = internal/network
+interface = ${system.network_interface}
+
+[module/network]
+type = internal/network
+interface = ${system.network_interface}
+
+interval = 1.0
+accumulate-stats = true
+unknown-as-up = true
+
+format-connected = <ramp-signal><label-connected>
+
+format-disconnected = <label-disconnected>
+format-disconnected-prefix = " 睊 "
+format-disconnected-prefix-font = 2
+format-disconnected-foreground = ${color.background}
+format-disconnected-background = ${color.green}
+
+label-connected = "%{A1:def-nmdmenu &:}%essid%%{A}"
+label-disconnected = "%{A1:def-nmdmenu &:}Offline%{A}"
+
+label-connected-foreground = ${color.background}
+label-disconnected-foreground = ${color.background}
+
+label-connected-background = ${color.green}
+label-disconnected-background = ${color.green}
+
+ramp-signal-0 = "  "
+ramp-signal-1 = "  "
+ramp-signal-2 = "  "
+ramp-signal-3 = "  "
+ramp-signal-4 = "  "
+ramp-signal-foreground = ${color.background}
+ramp-signal-background = ${color.green}
+ramp-signal-font = 2
+
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+[module/package-updates]
+type = custom/ipc
+hook-0 = echo " $(package-updates)"
+click-left = polybar-msg hook package-updates 1 &>/dev/null
+click-right = terminal -e pacseek
+format-foreground = ${color.cyan}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+[module/package-updates-trigger]
+type = custom/script
+exec = polybar-msg hook package-updates 1 &>/dev/null
+interval = 600
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+[module/mrpis-control]
+type = custom/script
+exec = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --icon
+format = <label>
+click-left = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --select
+scroll-up = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --vc 0.05+
+scroll-down = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --vc 0.05-
+format-font = 3
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+[module/mrpis-status]
+type = custom/script
+tail = true
+interval = 1
+; prefix symbol is shown before the text
+format = <label>
+exec = ~/.config/bspwm/polybar/polybar-scripts/mpris/scroll.sh
+scroll-up = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --vc 0.05+
+scroll-down = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --vc 0.05-
+format-font = 5
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+[module/mrpis-prev]
+type = custom/script
+exec = echo ""
+format = <label>
+click-left = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --previous
+format-font = 3
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+[module/mrpis-play-pause]
+type = custom/script
+exec = echo "懶"
+format = <label>
+click-left = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --playpause
+format-font = 3
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+[module/mrpis-next]
+type = custom/script
+exec = echo ""
+format = <label>
+click-left = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --next
+format-font = 3
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+[module/mrpis-process]
+type = custom/script
+tail = true
+interval = 1
+; prefix symbol is shown before the text
+format = <label>
+exec = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --process
+scroll-up = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --vc 0.05+
+scroll-down = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --vc 0.05-
+format-font = 5
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-

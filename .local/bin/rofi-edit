@@ -1,0 +1,46 @@
+#!/bin/bash
+
+myTerm=kitty
+myEdit=emacs
+
+menu(){
+	printf "1. kitty\n"
+	printf "2. bspwm\n"
+	printf "3. sxhkd\n"
+	printf "4. polybar\n"
+	printf "5. polybar modules\n"
+	printf "6. zshrc\n"
+	printf "7. picom\n"
+}
+
+main(){
+    choice=$(menu | rofi -dmenu | cut -d. -f1)
+
+	case $choice in
+		1)
+		$myTerm -e sh -c "sleep 0.2 ; $myEdit $HOME/.config/kitty/kitty.conf"
+            ;;
+		2)
+		$myTerm -e sh -c "sleep 0.2 ; $myEdit $HOME/.config/bspwm/bspwmrc"
+            ;;
+		3)
+		$myTerm -e sh -c "sleep 0.2 ; $myEdit $HOME/.config/sxhkd/sxhkdrc" 
+            ;;
+		4)
+            	$myTerm -e sh -c "sleep 0.2 ; $myEdit $HOME/.config/bspwm/polybar/config"
+	    ;;	
+   		5)
+	    	$myTerm -e sh -c "sleep 0.2 ; $myEdit $HOME/.config/bspwm/polybar/modules"
+            ;;
+		6)
+            	$myTerm -e sh -c "sleep 0.2 ; $myEdit $HOME/.zshrc"
+            ;;
+	    	7)
+		$myTerm -e sh -c "sleep 0.2 ; $myEdit $HOME/.config/bspwm/picom.conf"
+	    ;;	
+
+        esac
+}
+
+main
+

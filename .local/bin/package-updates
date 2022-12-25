@@ -1,0 +1,28 @@
+#!/bin/sh
+format() {
+    if [ "$1" -eq 0 ]; then
+        echo '-'
+    else
+        echo "$1"
+    fi
+}
+
+if ! updates_arch="$(checkupdates | wc -l)"; then
+    updates_arch=0
+fi
+
+if ! updates_aur="$(paru -Qua 2>/dev/null | wc -l)"; then
+    updates_aur=0
+fi
+
+if ! updates_flatpak="$(flatpak update | sed '1,3d'  | wc -l)"; then
+    updates_aur=0
+fi
+
+updates="$((updates_arch + updates_aur + updates_flatpak))"
+
+if [ "$updates" -gt 0 ]; then
+    echo "($(format $updates_arch)/$(format $updates_aur)/$(format $updates_flatpak))"
+else
+    echo
+fi
