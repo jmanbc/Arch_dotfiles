@@ -64,7 +64,7 @@ ctrl + Print
 ctrl + shift + Print
     takeshot --area
 
-#jgmenu right click
+#jgmenu open at pointer
 super + m
     jgmenu_run >/dev/null 2>&1
 
