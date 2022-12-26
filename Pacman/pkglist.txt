@@ -198,6 +198,7 @@ viewnior
 vim
 virt-manager
 virt-viewer
+visual-studio-code-bin
 vlc
 wat-git
 which
