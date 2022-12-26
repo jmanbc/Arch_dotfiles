@@ -74,9 +74,6 @@ bsp-layout set tiled  &
 # Kill if already running
 killall -9 blueberry-tray picom dunst ksuperkey xidlehook alttab glava kdeconnect-indicator indicator-keylock xfce4-power-manager caffeine
 
-# Start kdeconnect-indicator
-sh -c 'sleep 15 && kdeconnect-indicator &'
-
 # Start blueberry-tray
 blueberry-tray &
 
@@ -120,6 +117,9 @@ xfce4-power-manager &
 
 # Start caffeine
 caffeine &
+
+# Start kdeconnect-indicator
+# sh -c 'sleep 15 && kdeconnect-indicator &'
 
 # Start glava
 # sh -c 'sleep 10 && glava --desktop'

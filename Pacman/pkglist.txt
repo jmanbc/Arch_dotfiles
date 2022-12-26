@@ -84,7 +84,6 @@ intltool
 iptables-nft
 j4-dmenu-desktop
 jgmenu
-kdeconnect
 ksuperkey
 ktouch
 kvantum
