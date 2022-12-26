@@ -15,10 +15,7 @@ $HOME/.config/i3/bin/launchbar.sh
 xsetroot -cursor_name left_ptr
 
 # kill if already running
-killall -9 blueberry-tray picom dunst ksuperkey xidlehook alttab glava kdeconnect-indicator indicator-keylock xfce4-power-manager caffeine
-
-# Start kdeconnect-indicator
-sh -c 'sleep 15 && kdeconnect-indicator &'
+killall -9 blueberry-tray picom dunst ksuperkey xidlehook alttab glava indicator-keylock xfce4-power-manager caffeine
 
 # Start blueberry-tray
 blueberry-tray &

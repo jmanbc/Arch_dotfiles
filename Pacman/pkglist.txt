@@ -168,6 +168,7 @@ spacx-gtk-theme
 sshfs
 steam
 sudo
+sway
 sweet-gtk-theme-dark
 sweet-gtk-theme-mars-git
 sweet-gtk-theme-nova-git

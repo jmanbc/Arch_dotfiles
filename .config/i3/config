@@ -4,13 +4,13 @@
 set $alt Mod1
 set $mod Mod4
 
-##~~~ Global Font ~~~~~~~~~~~~~~~~~~~~~~ 
+##~~~ Global Font ~~~~~~~~~~~~~~~~~~~~~~
 ##
 
 font pango:Source Code Pro Medium 10
 
 
-##~~~ Gaps Configuration ~~~~~~~~~~~~~~~ 
+##~~~ Gaps Configuration ~~~~~~~~~~~~~~~
 ##
 
 # Title bar text alignment
@@ -32,7 +32,7 @@ gaps outer 3
 # Activate smart borders (always)
 #smart_borders on
 
-##~~~ Default Color Scheme (Everforest) 
+##~~~ Default Color Scheme (Everforest)
 ##
 
 client.background       #2b3339
@@ -51,7 +51,7 @@ client.placeholder      #2E3440 #2E3440 #D8DEE9 #a7c080   #2E3440
 # reload the configuration file
 #bindsym $mod+Shift+c reload
 
-# Restart/Quit i3 session 
+# Restart/Quit i3 session
 bindsym Control+Shift+r restart
 bindsym Control+Shift+q exec "pkill -KILL -u $USER"
 
@@ -182,7 +182,7 @@ bindsym $mod+r mode "resize"
 #assign [class="Gimp-2.10|vlc|Inkscape"] 5
 #assign [class="VirtualBox Manager"] 7
 
-##~~~ Rules For Windows ~~~~~~~~~~~~~~~~~~~~~~~ 
+##~~~ Rules For Windows ~~~~~~~~~~~~~~~~~~~~~~~
 ##
 
 for_window [window_role="pop-up"] floating enable
@@ -195,8 +195,7 @@ for_window [class="feh|Viewnior|MPlayer"] floating enable
 for_window [class="scpad|scpad"] floating enable
 for_window [class="spot|spot"] floating enable
 
-##~~~ Autostart ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+##~~~ Autostart ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ##
 
 exec_always --no-startup-id "~/.config/i3/bin/autostart.sh"
-
