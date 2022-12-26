@@ -8,7 +8,10 @@ variety --resume &
 # Start keybindings daemon
 pgrep -x sxhkd > /dev/null || sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 
-#Start polybar
+# Fix volume output on boot
+volumefix &
+
+# Start polybar
 $HOME/.config/bspwm/polybar/launch.sh
 
 bspc monitor -d      ﲵ אַ ﭧ  
@@ -27,7 +30,7 @@ bspc config paddingless_monocle   true
 bspc config single_monocle        false
 bspc config focus_follows_pointer true
 
-# fix pointer
+# Fix pointer
 xsetroot -cursor_name phinger-cursors &
 
 # The minimum interval, in milliseconds, between two motion notify events.

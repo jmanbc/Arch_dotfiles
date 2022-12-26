@@ -32,7 +32,7 @@ ascii_max_range = 7
 " > $config_file
 
 # run cava in the background
-cava -p $config_file &
+sleep 5 && cava -p $config_file &
 
 # reading data from fifo
 while read -r cmd; do
