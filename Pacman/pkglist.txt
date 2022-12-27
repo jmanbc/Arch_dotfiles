@@ -9,6 +9,7 @@ arcolinux-keyring
 arcolinux-mirrorlist-git
 autoconf
 automake
+awesome
 axyl-dmenu
 backintime
 base
@@ -49,6 +50,7 @@ ffmpegthumbnailer
 file
 file-roller
 findutils
+flameshot
 flatpak
 flex
 font-manager
@@ -78,6 +80,7 @@ hwinfo
 i2c-tools
 i3-gaps
 i3lock-color
+i3lock-fancy-git
 indicator-keylock
 inetutils
 intltool
@@ -99,6 +102,7 @@ m4
 maim
 make
 man-db
+materia-theme-git
 meld
 mpv
 nano
@@ -144,12 +148,15 @@ pipewire-pulse
 pkgconf
 playerctl
 pm-utils
+pnmixer
+polkit-gnome
 polybar-git
 protonup-qt
 python-pip
 python-requests-oauthlib
 qemu-desktop
 qogir-gtk-theme-git
+qt5-styleplugins
 qt5ct
 quickemu
 quickgui-bin
@@ -187,6 +194,7 @@ timeshift-autosnap
 transmission-gtk
 ttf-hactor
 ttf-hellvetica
+ttf-roboto
 ttf-sourcecodepro-nerd
 tty-clock-git
 tumbler

@@ -75,13 +75,18 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+;; Auto save buffers on focus lost
+(add-function :after after-focus-change-function (lambda () (save-some-buffers t)))
+;; Exit insert mode on focus loss
+(add-function :after after-focus-change-function (lambda () (evil-normal-state)))
+
 (beacon-mode 1)
 
 (setq explicit-shell-file-name "/usr/bin/zsh")
 (setq shell-file-name "zsh")
 (setq explicit-zsh-args '("--login" "--interactive"))
 (defun zsh-shell-mode-setup ()
-  (setq-local comint-process-echoes t))
+(setq-local comint-process-echoes t))
 (add-hook 'shell-mode-hook #'zsh-shell-mode-setup)
 
 (setq minimap-window-location 'right)
@@ -95,13 +100,6 @@
 				"--completion-style=detailed"
 				"--header-insertion=never"
 				"--header-insertion-decorators=0"))
-
 (after! lsp-clangd (set-lsp-priority! 'clangd 2))
 
-;(after! ccls
-;  (setq ccls-initialization-options '(:index (:comments 2) :completion (:detailedLabel t)))
-;  (set-lsp-priority! 'ccls 2)) ; optional as ccls is the default in Doom
-
 (set-eglot-client! 'cc-mode '("clangd" "-j=3" "--clang-tidy"))
-
-;(set-eglot-client! 'cc-mode '("ccls" "--init={\"index\": {\"threads\": 3}}"))
