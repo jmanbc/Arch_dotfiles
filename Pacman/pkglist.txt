@@ -9,7 +9,6 @@ arcolinux-keyring
 arcolinux-mirrorlist-git
 autoconf
 automake
-awesome
 axyl-dmenu
 backintime
 base
@@ -26,7 +25,7 @@ blueberry
 brave-bin
 bsp-layout
 bsptab-git
-bspwm-git
+bspwm
 btrfs-progs
 cackey
 caffeine-ng
@@ -50,7 +49,6 @@ ffmpegthumbnailer
 file
 file-roller
 findutils
-flameshot
 flatpak
 flex
 font-manager
@@ -62,6 +60,7 @@ git
 github-cli
 glava
 glib
+gnome-keyring
 gns3-gui
 gparted
 gpick
@@ -80,7 +79,6 @@ hwinfo
 i2c-tools
 i3-gaps
 i3lock-color
-i3lock-fancy-git
 indicator-keylock
 inetutils
 intltool
@@ -99,10 +97,10 @@ lohit-fonts
 looking-glass-rc
 lxappearance
 m4
+mailspring
 maim
 make
 man-db
-materia-theme-git
 meld
 mpv
 nano
@@ -148,15 +146,13 @@ pipewire-pulse
 pkgconf
 playerctl
 pm-utils
-pnmixer
-polkit-gnome
 polybar-git
+protonmail-bridge-bin
 protonup-qt
 python-pip
 python-requests-oauthlib
 qemu-desktop
 qogir-gtk-theme-git
-qt5-styleplugins
 qt5ct
 quickemu
 quickgui-bin
@@ -186,6 +182,7 @@ texinfo
 thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
+thunar-nextcloud-plugin
 thunar-shares-plugin
 thunar-volman
 thunarx-python
@@ -194,7 +191,6 @@ timeshift-autosnap
 transmission-gtk
 ttf-hactor
 ttf-hellvetica
-ttf-roboto
 ttf-sourcecodepro-nerd
 tty-clock-git
 tumbler
