@@ -107,13 +107,14 @@ nano
 ncdu
 ncspot-cover
 neofetch
-neovim
 nerd-fonts-jetbrains-mono
 net-tools
 network-manager-applet
 networkmanager
 networkmanager-dmenu-git
 nitrogen
+nmap
+nmap-netcat
 nordvpn-bin
 noto-fonts
 ntfs-3g
@@ -188,6 +189,7 @@ thunar-volman
 thunarx-python
 timeshift
 timeshift-autosnap
+tmux
 transmission-gtk
 ttf-hactor
 ttf-hellvetica

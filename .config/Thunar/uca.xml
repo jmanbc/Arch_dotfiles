@@ -28,4 +28,14 @@
 	<text-files/>
 	<video-files/>
 </action>
+<action>
+	<icon></icon>
+	<name>Move To Next Workspace</name>
+	<submenu></submenu>
+	<unique-id>1672288929725529-1</unique-id>
+	<command></command>
+	<description>Moves Window to next workspace</description>
+	<range>*</range>
+	<patterns>*</patterns>
+</action>
 </actions>
