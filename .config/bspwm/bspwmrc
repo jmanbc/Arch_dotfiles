@@ -121,8 +121,14 @@ xfce4-power-manager &
 # Start caffeine
 caffeine &
 
+# Start ProtonMail Bridge
+protonmail-bridge --no-window &
+
+# Start Mailspring
+mailspring --background &
+
 # Start kdeconnect-indicator
-# sh -c 'sleep 15 && kdeconnect-indicator &'
+sh -c 'sleep 15 && kdeconnect-indicator &'
 
 # Start glava
 # sh -c 'sleep 10 && glava --desktop'

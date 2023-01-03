@@ -77,7 +77,7 @@ howdy
 htop
 hwinfo
 i2c-tools
-i3-gaps
+i3-wm
 i3lock-color
 indicator-keylock
 inetutils
@@ -85,6 +85,7 @@ intltool
 iptables-nft
 j4-dmenu-desktop
 jgmenu
+kdeconnect
 ksuperkey
 ktouch
 kvantum
