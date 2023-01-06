@@ -130,6 +130,9 @@ mailspring --background &
 # Start kdeconnect-indicator
 sh -c 'sleep 15 && kdeconnect-indicator &'
 
+# Start Nextcloud Desktop
+nextcloud &
+
 # Start glava
 # sh -c 'sleep 10 && glava --desktop'
 
