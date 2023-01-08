@@ -5,3 +5,4 @@ sleep 5
 ip link add name ipvtap0 link wlp6s0 type ipvtap mode l2 bridge
 ip link set up ipvtap0
 ip addr add dev ipvtap0 192.168.50.220/32
+ip addr
