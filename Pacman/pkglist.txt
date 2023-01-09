@@ -27,7 +27,6 @@ bsp-layout
 bsptab-git
 bspwm
 btrfs-progs
-cackey
 caffeine-ng
 cava
 ccid
@@ -188,6 +187,7 @@ thunarx-python
 timeshift
 timeshift-autosnap
 tmux
+traceroute
 transmission-gtk
 ttf-hactor
 ttf-hellvetica
@@ -206,7 +206,9 @@ virt-viewer
 visual-studio-code-bin
 vlc
 wat-git
+wavemon
 which
+wireless-regdb
 wireplumber
 wireshark-qt
 xclip
