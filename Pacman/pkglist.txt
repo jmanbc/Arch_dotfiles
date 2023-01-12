@@ -166,6 +166,7 @@ rofi
 rtags-git
 sddm
 sddm-sugar-candy-git
+seahorse
 sed
 selectdefaultapplication-git
 shell-color-scripts
