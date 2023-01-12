@@ -69,7 +69,6 @@ gst-plugin-pipewire
 gtop
 gvfs
 gvfs-nfs
-gvfs-smb
 gzip
 hardinfo-gtk3
 howdy
@@ -96,6 +95,7 @@ linux-firmware
 lohit-fonts
 looking-glass-rc
 lxappearance
+lxqt-openssh-askpass
 m4
 mailspring
 maim
@@ -152,6 +152,7 @@ protonmail-bridge-bin
 protonup-qt
 python-pip
 python-requests-oauthlib
+qbittorrent
 qemu-desktop
 qogir-gtk-theme-git
 qt5ct
@@ -181,14 +182,12 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-nextcloud-plugin
-thunar-shares-plugin
 thunar-volman
 thunarx-python
 timeshift
 timeshift-autosnap
 tmux
 traceroute
-transmission-gtk
 ttf-hactor
 ttf-hellvetica
 ttf-sourcecodepro-nerd
@@ -209,6 +208,7 @@ wat-git
 wavemon
 which
 wireless-regdb
+wireless_tools
 wireplumber
 wireshark-qt
 xclip
