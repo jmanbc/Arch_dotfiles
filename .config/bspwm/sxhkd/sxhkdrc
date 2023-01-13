@@ -68,6 +68,10 @@ ctrl + shift + Print
 super + m
     jgmenu_run >/dev/null 2>&1
 
+#jgmenu on empty desktop right click
+~button3
+    xqp 0 $(xdo id -N Bspwm -n root) && jgmenu_run >/dev/null 2>&1
+
 #
 #
 # BSPWM HOTKEYS

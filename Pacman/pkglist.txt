@@ -59,6 +59,7 @@ git
 github-cli
 glava
 glib
+glow
 gnome-keyring
 gns3-gui
 gparted
@@ -85,7 +86,6 @@ j4-dmenu-desktop
 jgmenu
 kdeconnect
 ksuperkey
-ktouch
 kvantum
 kvantum-theme-qogir-git
 libpulse
@@ -112,7 +112,6 @@ net-tools
 network-manager-applet
 networkmanager
 networkmanager-dmenu-git
-nitrogen
 nmap
 nmap-netcat
 nordvpn-bin
@@ -194,8 +193,6 @@ ttf-hellvetica
 ttf-sourcecodepro-nerd
 tty-clock-git
 tumbler
-tuxtype
-typingtest-git
 ueberzug
 unicode-character-database
 variety
@@ -222,6 +219,7 @@ xfce4-terminal
 xidlehook
 xorg-xinit
 xorg-xsetroot
+xqp
 yaru-colors-gtk-theme
 zram-generator
 zscroll-git
