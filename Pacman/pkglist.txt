@@ -9,8 +9,10 @@ archlinux-keyring
 archlinux-tweak-tool-git
 arcolinux-keyring
 arcolinux-mirrorlist-git
+arcolinux-rofi-themes-git
 autoconf
 automake
+axyl-dmenu
 backintime
 base
 bat
@@ -83,7 +85,6 @@ indicator-keylock
 inetutils
 intltool
 iptables-nft
-j4-dmenu-desktop
 jgmenu
 kdeconnect
 ksuperkey
@@ -164,7 +165,6 @@ rebuild-detector
 reflector
 ripgrep-all
 rofi
-rofi-dmenu
 rtags-git
 sddm
 sddm-sugar-candy-git
