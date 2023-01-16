@@ -40,6 +40,10 @@ super + d
 super + x
     $HOME/.config/rofi/scripts/powermenu_t1
 
+#rofi window switcher
+super + w
+    $HOME/.config/rofi/scripts/rofiwin
+
 # Launch Menus
 super + {n,s,v,c}
     {def-nmdmenu,def-ssdmenu,def-clip,def-calc}
