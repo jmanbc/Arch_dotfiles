@@ -2,6 +2,8 @@ alacritty
 alttab-git
 amd-ucode
 ancient-packages
+android-sdk-platform-tools
+android-tools
 appimagelauncher
 archlinux-keyring
 archlinux-tweak-tool-git
@@ -9,7 +11,6 @@ arcolinux-keyring
 arcolinux-mirrorlist-git
 autoconf
 automake
-axyl-dmenu
 backintime
 base
 bat
@@ -93,7 +94,7 @@ libtool
 linux
 linux-firmware
 lohit-fonts
-looking-glass-rc
+looking-glass
 lxappearance
 lxqt-openssh-askpass
 m4
@@ -149,6 +150,7 @@ pm-utils
 polybar-git
 protonmail-bridge-bin
 protonup-qt
+python-pep621
 python-pip
 python-requests-oauthlib
 qbittorrent
@@ -162,6 +164,7 @@ rebuild-detector
 reflector
 ripgrep-all
 rofi
+rofi-dmenu
 rtags-git
 sddm
 sddm-sugar-candy-git
@@ -194,6 +197,7 @@ ttf-sourcecodepro-nerd
 tty-clock-git
 tumbler
 ueberzug
+ultravnc-viewer
 unicode-character-database
 variety
 viewnior

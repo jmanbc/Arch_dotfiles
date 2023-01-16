@@ -28,13 +28,21 @@ alt + Return
 alt + s
     spot
 
-# j4 dmenu
+#rofi drun menu
 super + a
-    j4-dmenu
+    $HOME/.config/rofi/scripts/launcher_t2
+
+#rofi run menu
+super + d
+    $HOME/.config/rofi/scripts/rofirun
+
+#rofi powermenu
+super + x
+    $HOME/.config/rofi/scripts/powermenu_t1
 
 # Launch Menus
-super + {x,n,d,s,v,c}
-    {powermenu,def-nmdmenu,def-dmenu,def-ssdmenu,def-clip,def-calc}
+super + {n,s,v,c}
+    {def-nmdmenu,def-ssdmenu,def-clip,def-calc}
 
 # Lock Screen
 ctrl + alt + l

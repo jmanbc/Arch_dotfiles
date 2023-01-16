@@ -6,6 +6,11 @@ if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
+if [ -d "$HOME/.config/rofi/scripts" ] ;
+  then PATH="$HOME/.config/rofi/scripts:$PATH"
+fi
+
+
 autoload -U promptinit; promptinit
 autoload -U colors && colors
 export PWD=/home/$USER
