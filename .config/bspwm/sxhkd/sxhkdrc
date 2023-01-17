@@ -30,23 +30,31 @@ alt + s
 
 #rofi drun menu
 super + a
-    $HOME/.config/rofi/scripts/launcher_t2
+    $HOME/.config/rofi/launchers/type-2/launcher.sh
 
 #rofi run menu
 super + d
-    $HOME/.config/rofi/scripts/rofirun
+    $HOME/.config/rofi/launchers/type-2/rofirun.sh
 
 #rofi powermenu
 super + x
-    $HOME/.config/rofi/scripts/powermenu_t1
+    $HOME/.config/rofi/powermenu/type-1/powermenu.sh
 
 #rofi window switcher
 super + w
-    $HOME/.config/rofi/scripts/rofiwin
+    $HOME/.config/rofi/launchers/type-2/rofiwin.sh
+
+#rofi calc
+super + c
+    $HOME/.config/rofi/launchers/type-2/roficalc.sh
+
+#rofi network menu
+super + n
+    $HOME/.config/rofi/rofi-network-manager/rofi-network-manager.sh
 
 # Launch Menus
-super + {n,s,v,c}
-    {def-nmdmenu,def-ssdmenu,def-clip,def-calc}
+super + {s,v}
+    {def-ssdmenu,def-clip}
 
 # Lock Screen
 ctrl + alt + l

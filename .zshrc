@@ -21,6 +21,7 @@ export KEYTIMEOUT=1
 export ZSH=/usr/share/oh-my-zsh
 export PATH="$HOME/.emacs.d/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.config/rofi/scripts:$PATH"
 export PATH
 
 # Load Version control information

@@ -12,7 +12,6 @@ arcolinux-mirrorlist-git
 arcolinux-rofi-themes-git
 autoconf
 automake
-axyl-dmenu
 backintime
 base
 bat
@@ -165,6 +164,7 @@ rebuild-detector
 reflector
 ripgrep-all
 rofi
+rofi-calc
 rtags-git
 sddm
 sddm-sugar-candy-git
