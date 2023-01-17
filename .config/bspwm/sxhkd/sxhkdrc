@@ -38,7 +38,7 @@ super + d
 
 #rofi powermenu
 super + x
-    $HOME/.config/rofi/powermenu/type-1/powermenu.sh
+    $HOME/.config/rofi/applets/bin/powermenu.sh
 
 #rofi window switcher
 super + w
@@ -52,9 +52,13 @@ super + c
 super + n
     $HOME/.config/rofi/rofi-network-manager/rofi-network-manager.sh
 
-# Launch Menus
-super + {s,v}
-    {def-ssdmenu,def-clip}
+#rofi screenshot
+super + s
+    $HOME/.config/rofi/applets/bin/screenshot.sh
+
+#rofi clipboard
+super + v
+    def-clip
 
 # Lock Screen
 ctrl + alt + l

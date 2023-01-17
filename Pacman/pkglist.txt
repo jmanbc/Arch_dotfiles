@@ -1,4 +1,5 @@
 alacritty
+alsa-utils
 alttab-git
 amd-ucode
 ancient-packages
@@ -32,7 +33,7 @@ btrfs-progs
 caffeine-ng
 cava
 ccid
-clipmenu
+clipmenu-rofi
 debugedit
 devour
 discord
@@ -86,7 +87,6 @@ intltool
 iptables-nft
 jgmenu
 kdeconnect
-ksuperkey
 kvantum
 kvantum-theme-qogir-git
 libpulse
@@ -224,6 +224,7 @@ xidlehook
 xorg-xinit
 xorg-xsetroot
 xqp
+xss-lock
 yaru-colors-gtk-theme
 zram-generator
 zscroll-git

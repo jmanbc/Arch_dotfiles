@@ -75,13 +75,16 @@ bsp-layout set tiled  &
 bsp-layout set tiled  &
 
 # Kill if already running
-killall -9 blueberry-tray picom dunst ksuperkey xidlehook alttab glava kdeconnect-indicator indicator-keylock xfce4-power-manager caffeine
+killall -9 blueberry-tray picom dunst ksuperkey xidlehook alttab glava kdeconnect-indicator indicator-keylock xfce4-power-manager caffeine xss-lock
 
 # Start blueberry-tray
 blueberry-tray &
 
 # Start xidlehook for lock screen
 xidlehook --not-when-fullscreen --not-when-audio --timer 600 'lock' '' &
+
+# xss-lock for lock on suspend and hibernate
+xss-lock lock &
 
 # Launch notification daemon
 dunst -config $HOME/.config/bspwm/dunstrc &
