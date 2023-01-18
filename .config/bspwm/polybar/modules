@@ -291,7 +291,7 @@ format-padding = 0
 format-prefix-foreground = ${color.background}
 format-foreground = ${color.background}
 format-background = ${color.green}
-label = "%{A1:terminal -e gtop &:}%percentage%% %{A}"
+label = "%{A1:terminal -e gotop &:}%percentage%% %{A}"
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 

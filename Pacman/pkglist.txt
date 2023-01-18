@@ -65,12 +65,12 @@ glib
 glow
 gnome-keyring
 gns3-gui
+gotop-bin
 gparted
 gpick
 grep
 groff
 gst-plugin-pipewire
-gtop
 gvfs
 gvfs-nfs
 gzip
