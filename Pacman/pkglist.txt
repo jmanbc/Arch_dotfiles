@@ -121,7 +121,6 @@ ntfs-3g
 numlockx
 nvidia
 nvidia-settings
-oh-my-zsh-git
 okular
 onlyoffice-bin
 openrgb-bin

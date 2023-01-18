@@ -10,6 +10,7 @@ if [ -d "$HOME/.config/rofi/scripts" ] ;
   then PATH="$HOME/.config/rofi/scripts:$PATH"
 fi
 
+zstyle ':omz:update' mode auto      # update automatically without asking
 
 autoload -U promptinit; promptinit
 autoload -U colors && colors
@@ -18,7 +19,7 @@ export OLDPWD=/home/$USER
 export BAT_THEME="Nord"
 
 export KEYTIMEOUT=1
-export ZSH=/usr/share/oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 export PATH="$HOME/.emacs.d/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.config/rofi/scripts:$PATH"
