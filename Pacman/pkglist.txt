@@ -199,6 +199,7 @@ tumbler
 ueberzug
 ultravnc-viewer
 unicode-character-database
+unimatrix-git
 variety
 viewnior
 vim

@@ -81,6 +81,7 @@ plugins=(
   copybuffer
   dirhistory
   history
+  vi-mode
 	)
 
 source $ZSH/oh-my-zsh.sh
