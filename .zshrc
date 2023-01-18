@@ -66,7 +66,7 @@ export CM_MAX_CLIPS=10
 HISTSIZE=50000
 SAVEHIST=50000
 HISTFILE=~/.zsh_history
-HIST_STAMPS="dd/mm/yyyy"
+HIST_STAMPS="%d/%m/%y %T"
 compinit
 _comp_options+=(globdots) # lets you tab complete hidden files by default
 
