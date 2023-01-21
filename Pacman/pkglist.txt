@@ -192,6 +192,7 @@ traceroute
 ttf-hactor
 ttf-hellvetica
 ttf-jetbrains-mono-nerd
+ttf-meslo-nerd
 ttf-sourcecodepro-nerd
 tty-clock-git
 tumbler
