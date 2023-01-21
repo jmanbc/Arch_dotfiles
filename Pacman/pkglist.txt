@@ -6,6 +6,7 @@ ancient-packages
 android-sdk-platform-tools
 android-tools
 appimagelauncher
+arandr
 archlinux-keyring
 archlinux-tweak-tool-git
 arcolinux-keyring
@@ -79,7 +80,6 @@ howdy
 htop
 hwinfo
 i2c-tools
-i3-wm
 i3lock-color
 indicator-keylock
 inetutils
@@ -176,8 +176,11 @@ spacx-gtk-theme
 sshfs
 steam
 sudo
+<<<<<<< HEAD
 sway
 sway-nvidia
+=======
+>>>>>>> e11659c (Updates)
 sxhkd
 tabbed-flexipatch-git
 texinfo
