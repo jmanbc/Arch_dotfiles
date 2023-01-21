@@ -108,7 +108,6 @@ nano
 ncdu
 ncspot-cover
 neofetch
-nerd-fonts-jetbrains-mono
 net-tools
 network-manager-applet
 networkmanager
@@ -178,6 +177,7 @@ sshfs
 steam
 sudo
 sway
+sway-nvidia
 sxhkd
 tabbed-flexipatch-git
 texinfo
@@ -193,6 +193,7 @@ tmux
 traceroute
 ttf-hactor
 ttf-hellvetica
+ttf-jetbrains-mono-nerd
 ttf-sourcecodepro-nerd
 tty-clock-git
 tumbler

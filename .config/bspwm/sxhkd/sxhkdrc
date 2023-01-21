@@ -30,7 +30,7 @@ alt + s
 
 #rofi drun menu
 super + a
-    $HOME/.config/rofi/launchers/type-2/launcher.sh
+    $HOME/.config/rofi/launchers/type-3/launcher.sh
 
 #rofi run menu
 super + d

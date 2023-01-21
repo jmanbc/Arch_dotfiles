@@ -13,6 +13,17 @@
 	<directories/>
 </action>
 <action>
+	<icon>object-unlocked</icon>
+	<name>Open as root</name>
+	<submenu></submenu>
+	<unique-id>1674086116921438-1</unique-id>
+	<command>pkexec  thunar %f</command>
+	<description>Open as root</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
 	<icon>view-hidden</icon>
 	<name>Show Hidden</name>
 	<submenu></submenu>
@@ -22,11 +33,6 @@
 	<range>*</range>
 	<patterns>*</patterns>
 	<directories/>
-	<audio-files/>
-	<image-files/>
-	<other-files/>
-	<text-files/>
-	<video-files/>
 </action>
 <action>
 	<icon></icon>
