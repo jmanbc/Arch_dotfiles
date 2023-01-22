@@ -70,6 +70,7 @@ gotop-bin
 gparted
 gpick
 grep
+grimshot
 groff
 gst-plugin-pipewire
 gvfs
@@ -87,6 +88,7 @@ intltool
 iptables-nft
 jgmenu
 kdeconnect
+kitty
 kvantum
 kvantum-theme-qogir-git
 libpulse
@@ -120,6 +122,7 @@ ntfs-3g
 numlockx
 nvidia
 nvidia-settings
+nvidia-vaapi-driver-git
 okular
 onlyoffice-bin
 openrgb-bin
@@ -145,6 +148,7 @@ pipewire-pulse
 pkgconf
 playerctl
 pm-utils
+polkit-gnome
 polybar-git
 powerline-fonts
 protonmail-bridge-bin
@@ -165,6 +169,7 @@ ripgrep-all
 rofi
 rofi-calc
 rtags-git
+rust
 sddm
 sddm-sugar-candy-git
 seahorse
@@ -197,7 +202,6 @@ ttf-sourcecodepro-nerd
 tty-clock-git
 tumbler
 ueberzug
-ultravnc-viewer
 unicode-character-database
 unimatrix-git
 variety
@@ -214,6 +218,7 @@ wireless-regdb
 wireless_tools
 wireplumber
 wireshark-qt
+wlroots-nvidia-git
 xclip
 xdg-user-dirs-gtk
 xdo
@@ -226,6 +231,7 @@ xorg-xinit
 xorg-xsetroot
 xqp
 xss-lock
+yad
 yaru-colors-gtk-theme
 zram-generator
 zscroll-git
