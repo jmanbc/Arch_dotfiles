@@ -1,3 +1,4 @@
+aic94xx-firmware
 alacritty
 alsa-utils
 alttab-git
@@ -31,9 +32,11 @@ bsp-layout
 bsptab-git
 bspwm
 btrfs-progs
+cackey
 caffeine-ng
 cava
 ccid
+cifs-utils
 clipmenu-rofi
 debugedit
 devour
@@ -57,6 +60,7 @@ findutils
 flatpak
 flex
 font-manager
+freerdp
 fsearch
 gawk
 gcc
@@ -77,6 +81,7 @@ groff
 gst-plugin-pipewire
 gvfs
 gvfs-nfs
+gvfs-smb
 gzip
 hardinfo-gtk3
 howdy
@@ -107,7 +112,6 @@ maim
 make
 man-db
 meld
-meson
 mpv
 nano
 ncdu
@@ -117,7 +121,6 @@ net-tools
 network-manager-applet
 networkmanager
 networkmanager-dmenu-git
-ninja
 nmap
 nmap-netcat
 nordvpn-bin
@@ -169,6 +172,7 @@ quickgui-bin
 ranger
 rebuild-detector
 reflector
+remmina
 ripgrep-all
 rofi
 rofi-calc
@@ -180,6 +184,7 @@ seahorse
 sed
 selectdefaultapplication-git
 shell-color-scripts
+smbclient
 snapd
 spacx-gtk-theme
 sshfs
@@ -192,6 +197,7 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-nextcloud-plugin
+thunar-shares-plugin
 thunar-volman
 thunarx-python
 tigervnc
@@ -218,7 +224,7 @@ visual-studio-code-bin
 vlc
 wat-git
 wavemon
-wayland-protocols
+wd719x-firmware
 which
 wireless-regdb
 wireless_tools

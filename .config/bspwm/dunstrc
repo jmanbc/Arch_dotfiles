@@ -46,8 +46,8 @@ word_wrap = yes
 ignore_newline = no
 
 # Hide duplicate's count and stack them
-stack_duplicates = false
-hide_duplicate_count = yes
+stack_duplicates = true
+hide_duplicate_count = false
 
 ### Geometry ###
 

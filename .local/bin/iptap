@@ -5,3 +5,7 @@ sleep 5
 ip link add name ipvtap0 link wlp6s0 type ipvtap mode l2 bridge
 ip link set up ipvtap0
 ip addr add dev ipvtap0 192.168.50.220/32
+
+# Set Default Routes
+ip route add default via 192.168.50.1 dev wlp6s0 proto dhcp src 192.168.50.227 metric 1
+ip route del default via 192.168.50.1 dev wlp6s0 proto dhcp src 192.168.50.227 metric 600
