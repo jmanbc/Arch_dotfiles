@@ -9,7 +9,6 @@ super + Escape
 # Launch Terminal
 super + Return
     xfce4-terminal
-    #terminal
 
 # Floating Alacritty Terminal
 super + shift + Return
@@ -17,8 +16,7 @@ super + shift + Return
 
 # Fullscreen Terminal
 super + shift + t
-      xfce4-terminal --fullscreen
-      #terminal -m
+    xfce4-terminal --fullscreen
 
 # Scratchpad
 alt + Return

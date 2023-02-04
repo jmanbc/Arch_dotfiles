@@ -137,7 +137,7 @@ sh -c 'sleep 15 && kdeconnect-indicator &'
 nextcloud &
 
 # Start VNC
-vncstart &
+# vncstart &
 
 # Start glava
 # sh -c 'sleep 10 && glava --desktop'

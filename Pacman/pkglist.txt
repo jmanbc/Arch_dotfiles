@@ -52,6 +52,7 @@ ethtool
 exa
 expac
 fakeroot
+fd
 feh
 ffmpegthumbnailer
 file
@@ -103,7 +104,7 @@ libtool
 linux
 linux-firmware
 lohit-fonts
-looking-glass
+looking-glass-git
 lxappearance
 lxqt-openssh-askpass
 m4
@@ -112,10 +113,11 @@ maim
 make
 man-db
 meld
+mkinitcpio-firmware
 mpv
 nano
 ncdu
-ncspot-cover
+ncspot
 neofetch
 net-tools
 network-manager-applet
@@ -129,7 +131,6 @@ ntfs-3g
 numlockx
 nvidia
 nvidia-settings
-nvidia-vaapi-driver-git
 okular
 onlyoffice-bin
 openrgb-bin
@@ -158,6 +159,7 @@ pm-utils
 polkit-gnome
 polybar-git
 powerline-fonts
+procs
 protonmail-bridge-bin
 protonup-qt
 python-pep621
@@ -197,7 +199,6 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-nextcloud-plugin
-thunar-shares-plugin
 thunar-volman
 thunarx-python
 tigervnc
