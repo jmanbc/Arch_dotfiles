@@ -106,7 +106,6 @@ linux-firmware
 lohit-fonts
 looking-glass-git
 lxappearance
-lxqt-openssh-askpass
 m4
 mailspring
 maim
@@ -169,8 +168,6 @@ qbittorrent
 qemu-desktop
 qogir-gtk-theme-git
 qt5ct
-quickemu
-quickgui-bin
 ranger
 rebuild-detector
 reflector
@@ -232,6 +229,7 @@ wireless_tools
 wireplumber
 wireshark-qt
 wlroots-nvidia-git
+x11-ssh-askpass
 xclip
 xdg-user-dirs-gtk
 xdo
