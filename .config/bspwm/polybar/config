@@ -55,7 +55,7 @@ font-5 = "DejaVu Sans Mono:size=12;3"
 font-6 = "Noto Sans Mono:size12;3"
 
 # Default
-modules-left = spacing BLD launcher BRD sep MLD layout mod GMPL network GRD sep mrpis-control spacing spacing mrpis-prev spacing spacing mrpis-play-pause spacing spacing mrpis-next spacing spacing mrpis-process spacing mrpis-status
+modules-left = spacing BLD launcher BRD sep MLD layout mod GMPL network vpn GRD sep title
 modules-center = bspwm
 modules-right = spacing tray spacing dunst spacing package-updates package-updates-trigger sep MLD volume cava MRD sep GLD cpu YPL memory CPL filesystem CRD sep BLD time BRD spacing
 

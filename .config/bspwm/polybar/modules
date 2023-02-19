@@ -212,7 +212,6 @@ format-font = 5
 
 label-monocle = "[M]"
 label-tiled = "[]="
-
 label-floating = ", ><>"
 label-pseudotiled = ", Pseudo"
 label-fullscreen = ", Full"
@@ -240,10 +239,10 @@ label-background = ${color.magenta}
 type = internal/xwindow
 
 label = %title%
-label-maxlen = 110
+label-maxlen = 75
 
-format-background =${color.cyan}
-format-foreground =${color.background}
+format-background =${color.background}
+format-foreground =${color.altwhite}
 format-padding = 1
 format-font = 5
 
@@ -259,6 +258,7 @@ format-font = 5
 
 exec = bsp-layout get
 interval = 0
+
 click-left=bsp-layout next
 click-right=bsp-layout previous
 
@@ -407,7 +407,6 @@ ramp-signal-foreground = ${color.background}
 ramp-signal-background = ${color.green}
 ramp-signal-font = 2
 
-
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 
 [module/package-updates]
@@ -487,5 +486,15 @@ exec = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --process
 scroll-up = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --vc 0.05+
 scroll-down = ~/.config/bspwm/polybar/polybar-scripts/mpris/mpris_control.sh --vc 0.05-
 format-font = 5
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+[module/vpn]
+type = custom/script
+exec =~/.local/bin/vpn.openvpn-status.sh
+interval = 5
+format-background = ${color.green}
+format-foreground = ${color.background}
+
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-

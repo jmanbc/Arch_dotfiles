@@ -10,13 +10,11 @@ appimagelauncher
 arandr
 archlinux-keyring
 archlinux-tweak-tool-git
-arcolinux-keyring
-arcolinux-mirrorlist-git
-arcolinux-rofi-themes-git
 autoconf
 automake
 backintime
 base
+base-devel
 bat
 betterdiscord-git
 betterdiscordctl
@@ -84,7 +82,7 @@ gvfs
 gvfs-nfs
 gvfs-smb
 gzip
-hardinfo-gtk3
+hardinfo
 howdy
 htop
 hwinfo
@@ -113,6 +111,7 @@ maim
 make
 man-db
 meld
+meson
 mkinitcpio-firmware
 mpv
 nano
@@ -123,10 +122,12 @@ net-tools
 network-manager-applet
 networkmanager
 networkmanager-dmenu-git
+networkmanager-openvpn
 nmap
 nmap-netcat
 nordvpn-bin
 noto-fonts
+noto-fonts-emoji
 ntfs-3g
 numlockx
 nvidia
@@ -141,7 +142,7 @@ pacseek
 pakbak-git
 pamixer
 papirus-icon-theme
-paru
+paru-git
 patch
 pavucontrol
 pcsc-tools
@@ -162,6 +163,7 @@ powerline-fonts
 procs
 protonmail-bridge-bin
 protonup-qt
+putty
 python-pep621
 python-pip
 python-requests-oauthlib
@@ -178,6 +180,7 @@ rofi
 rofi-calc
 rtags-git
 rust
+rustdesk-git
 sddm
 sddm-sugar-candy-git
 seahorse
@@ -204,8 +207,6 @@ timeshift
 timeshift-autosnap
 tmux
 traceroute
-ttf-hactor
-ttf-hellvetica
 ttf-jetbrains-mono-nerd
 ttf-meslo-nerd
 ttf-sourcecodepro-nerd
@@ -229,6 +230,7 @@ vlc
 vmware-workstation
 wat-git
 wavemon
+wayland-protocols
 wd719x-firmware
 wget
 which
