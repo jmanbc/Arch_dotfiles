@@ -239,7 +239,7 @@ label-background = ${color.magenta}
 type = internal/xwindow
 
 label = %title%
-label-maxlen = 75
+label-maxlen = 65
 
 format-background =${color.background}
 format-foreground =${color.altwhite}

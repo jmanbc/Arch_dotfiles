@@ -75,7 +75,6 @@ gotop-bin
 gparted
 gpick
 grep
-grimshot
 groff
 gst-plugin-pipewire
 gvfs
@@ -111,7 +110,6 @@ maim
 make
 man-db
 meld
-meson
 mkinitcpio-firmware
 mpv
 nano
@@ -169,6 +167,7 @@ python-pip
 python-requests-oauthlib
 qbittorrent
 qemu-desktop
+qmk
 qogir-gtk-theme-git
 qt5ct
 ranger
@@ -180,7 +179,6 @@ rofi
 rofi-calc
 rtags-git
 rust
-rustdesk-git
 sddm
 sddm-sugar-candy-git
 seahorse
@@ -230,7 +228,6 @@ vlc
 vmware-workstation
 wat-git
 wavemon
-wayland-protocols
 wd719x-firmware
 wget
 which
@@ -238,7 +235,6 @@ wireless-regdb
 wireless_tools
 wireplumber
 wireshark-qt
-wlroots-nvidia-git
 x11-ssh-askpass
 xclip
 xdg-user-dirs-gtk
