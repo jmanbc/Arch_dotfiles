@@ -28,7 +28,7 @@ blueberry
 brave-bin
 bsp-layout
 bsptab-git
-bspwm
+bspwm-git
 btrfs-progs
 cackey
 caffeine-ng
@@ -61,6 +61,7 @@ flex
 font-manager
 freerdp
 fsearch
+galculator
 gawk
 gcc
 gettext
@@ -204,6 +205,7 @@ tigervnc
 timeshift
 timeshift-autosnap
 tmux
+tor-browser
 traceroute
 ttf-jetbrains-mono-nerd
 ttf-meslo-nerd

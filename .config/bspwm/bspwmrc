@@ -57,7 +57,8 @@ declare -a floats=(Alafloat
 bspc rule -a scpad sticky=on state=floating focus=on
 bspc rule -a Emacs state=tiled focus=on follow=on
 bspc rule -a spot sticky=on state=floating focus=on rectangle=800x400+1280+330
-bspc rule -a fluent-reader state=pseudo_tiled focus=on follow=on rectangle=1699x1363+10-10
+bspc rule -a Galcualtor state=floating focus=on
+bspc rule -a galculator state=floating focus=on
 
 
 ## Autostart
@@ -81,7 +82,7 @@ killall -9 blueberry-tray picom dunst xidlehook alttab kdeconnect-indicator indi
 blueberry-tray &
 
 # Start xidlehook for lock screen
-xidlehook --not-when-fullscreen --not-when-audio --timer 600 'lock' '' &
+xidlehook --not-when-fullscreen --not-when-audio --timer 10 'lock && dunstctl set-paused true' '' &
 
 # xss-lock for lock on suspend and hibernate
 xss-lock lock &
