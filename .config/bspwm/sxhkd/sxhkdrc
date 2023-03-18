@@ -58,9 +58,13 @@ super + s
 super + v
     def-clip
 
+# Rofi nordvpn
+super + alt + n
+    rofi-nordvpn
+
 # Lock Screen
 ctrl + alt + l
-    lock
+    lock & dunstctl set-paused true
 
 # Launch Applications
 super + shift + {f,w,r,g,s,v,e,p,c}

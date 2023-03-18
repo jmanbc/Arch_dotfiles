@@ -8,6 +8,7 @@ android-sdk-platform-tools
 android-tools
 appimagelauncher
 arandr
+archlinux-contrib
 archlinux-keyring
 archlinux-tweak-tool-git
 autoconf
@@ -16,8 +17,6 @@ backintime
 base
 base-devel
 bat
-betterdiscord-git
-betterdiscordctl
 bibata-cursor-theme-bin
 bibata-cursor-translucent
 bibata-extra-cursor-theme
@@ -65,6 +64,9 @@ galculator
 gawk
 gcc
 gettext
+gimp
+gimp-help-en
+gimp-nufraw
 git
 github-cli
 glava
@@ -176,8 +178,10 @@ rebuild-detector
 reflector
 remmina
 ripgrep-all
+rmlint
 rofi
 rofi-calc
+rofi-nordvpn-git
 rtags-git
 rust
 sddm
