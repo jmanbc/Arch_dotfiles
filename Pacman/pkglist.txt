@@ -190,6 +190,7 @@ seahorse
 sed
 selectdefaultapplication-git
 shell-color-scripts
+signal-desktop
 smbclient
 snapd
 spacx-gtk-theme

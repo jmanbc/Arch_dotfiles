@@ -64,7 +64,7 @@ super + alt + n
 
 # Lock Screen
 ctrl + alt + l
-    lock & dunstctl set-paused true
+    lock
 
 # Launch Applications
 super + shift + {f,w,r,g,s,v,e,p,c}
