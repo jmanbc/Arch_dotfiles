@@ -82,7 +82,7 @@ killall -9 blueberry-tray picom dunst xidlehook alttab kdeconnect-indicator indi
 blueberry-tray &
 
 # Start xidlehook for lock screen and pause notifications
-xidlehook --not-when-fullscreen --not-when-audio --timer 600 'lock & dunstctl set-paused true' '' &
+xidlehook --not-when-fullscreen --not-when-audio --timer 600 'lock' '' &
 
 # xss-lock for lock on suspend and hibernate
 xss-lock lock &
