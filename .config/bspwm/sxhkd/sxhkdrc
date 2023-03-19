@@ -6,13 +6,13 @@
 super + Escape
     pkill -USR1 -x sxhkd
 
-# Launch Terminal
+# xfce4-terminal
 super + Return
     xfce4-terminal
 
-# Floating Alacritty Terminal
+# Alacritty Terminal
 super + shift + Return
-    terminal -f
+    terminal
 
 # Fullscreen Terminal
 super + shift + t
