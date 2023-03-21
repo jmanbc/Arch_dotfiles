@@ -64,7 +64,7 @@ bspc rule -a galculator state=floating focus=on
 ## Autostart
 
 # Set bsp layouts
-bsp-layout set tiled  &
+bsp-layout set tall  &
 bsp-layout set tiled  &
 bsp-layout set tiled  &
 bsp-layout set tiled  &

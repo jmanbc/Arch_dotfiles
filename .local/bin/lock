@@ -19,6 +19,8 @@ WHITE="#FFFFFF"
 TOTD=$(fortune -n 90 -s | head -n 1)
 
 ## Exec	-----------------
+
+dunstctl set-paused false
 pkill -u "$USER" -USR1 dunst
 
 i3lock -n  \
@@ -69,3 +71,4 @@ i3lock -n  \
 --date-str="%A, %b %d, %G" \
 # --blur 5
 pkill -u "$USER" -USR2 dunst
+dunsctl set-paused true
