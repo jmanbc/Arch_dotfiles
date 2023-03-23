@@ -60,6 +60,7 @@ flex
 font-manager
 freerdp
 fsearch
+fwupd
 galculator
 gawk
 gcc
