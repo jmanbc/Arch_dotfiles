@@ -176,19 +176,21 @@ frame_color = "#7aa2f7"
 foreground = "#7aa2f7"
 background = "#1a1b26"
 timeout = 5
+fullscreen = pushback
 
 [urgency_normal]
 frame_color = "#444b6a"
 foreground = "#a9b1d6"
 background = "#1a1b26"
 timeout = 5
+fullscreen = pushback
 
 [urgency_critical]
 frame_color = "#f7768e"
 foreground = "#f7768e"
 background = "#1a1b26"
 timeout = 5
-
+fullscreen = show
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.

@@ -114,7 +114,7 @@ def-alttab &
 emacs -daemon &
 
 # Start openrgb
-pgrep -x openrgb > /dev/null || openrgb -p shogun.orp &
+pgrep -x openrgb > /dev/null || openrgb -p cyber.orp &
 
 # Start Keylock indicator
 indicator-keylock &

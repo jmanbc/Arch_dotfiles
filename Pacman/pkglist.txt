@@ -86,6 +86,7 @@ gvfs-nfs
 gvfs-smb
 gzip
 hardinfo
+hdparm
 howdy
 htop
 hwinfo
