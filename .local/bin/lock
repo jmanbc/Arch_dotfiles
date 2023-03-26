@@ -19,6 +19,7 @@ WHITE="#FFFFFF"
 TOTD=$(fortune -n 90 -s | head -n 1)
 
 ## Exec	-----------------
+
 pkill -u "$USER" -USR1 dunst
 i3lock -n  \
 --color="${BG}"			\
