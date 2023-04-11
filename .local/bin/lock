@@ -20,7 +20,9 @@ TOTD=$(fortune -n 90 -s | head -n 1)
 
 ## Exec	-----------------
 
+killall -9 picom
 pkill -u "$USER" -USR1 dunst
+
 i3lock -n  \
 --color="${BG}"			\
 \
@@ -68,4 +70,7 @@ i3lock -n  \
 --time-str="%I:%M:%S %p"		\
 --date-str="%A, %b %d, %G" \
 # --blur 5
+
 pkill -u "$USER" -USR2 dunst
+picom --config $HOME/.config/bspwm/picom.conf
+openrgb -p cyber.orp

@@ -67,8 +67,8 @@ ctrl + alt + l
     lock
 
 # Launch Applications
-super + shift + {f,w,r,g,s,v,e,p,c}
-    {thunar,brave,xfce4-terminal -e ranger,steam,fsearch,virt-manager,emacsclient -c -a 'emacs',xfce4-terminal -e pacseek,code}
+super + shift + {f,w,r,g,s,v,e,p,c,m}
+    {thunar,brave,xfce4-terminal -e ranger,steam,fsearch,virt-manager,emacsclient -c -a 'emacs',xfce4-terminal -e pacseek,code,mailspring}
 
 # Volume controls
 XF86Audio{RaiseVolume,LowerVolume,Mute}

@@ -90,6 +90,7 @@ hdparm
 howdy
 htop
 hwinfo
+hyprland-nvidia-git
 i2c-tools
 i3lock-color
 indicator-keylock
@@ -151,6 +152,8 @@ pavucontrol
 pcsc-tools
 pcsclite
 phinger-cursors
+picard
+picard-plugins-git
 picom-git
 piper
 pipewire
@@ -178,6 +181,7 @@ qt5ct
 ranger
 rebuild-detector
 reflector
+remake
 remmina
 ripgrep-all
 rmlint
@@ -246,6 +250,7 @@ wireplumber
 wireshark-qt
 x11-ssh-askpass
 xclip
+xdg-desktop-portal-hyprland-git
 xdg-user-dirs-gtk
 xdo
 xdotool
